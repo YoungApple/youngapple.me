@@ -1,5 +1,44 @@
 doctype html
 head
-    title Demo
-body
-    p Yangshuguo
+    title Yang Shuguo
+    link(href='stylesheets/bootstrap.min.css', rel='stylesheet')
+body(style="background-color: #CCC;")
+    div.container
+        div.navbar
+            div.navbar-inner.nav-collapse
+                ul.nav
+                    li
+                        a(href="#") Home
+                    li
+                        a(href="#") Blog
+                    li
+                        a(href="#") About
+
+    div.container
+        h1 Hello Worldss
+        div.main
+            h2 今天我吃了一个馒头
+        code static void main() {}
+
+        div.row
+            button.span4.btn.btn-info First
+            button.span4.btn.btn-warning Second
+            button.span4.btn.btn-success Third
+        div.row
+            button.span8 eight
+            button.span4 Less
+
+        div.row
+            button.span3 eight
+            button.span3 eight
+            button.span3 Less
+            button.span3 Less
+
+    script(src='http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js')
+    script(src='javascripts/bootstrap.min.js')
+
+    footer.footer.hidden-print
+        div.container.text-center
+            div.br Created by
+                a(href='#').br Shuguo Yang
+                i.icon-book.icon-white
